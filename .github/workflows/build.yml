@@ -81,6 +81,4 @@ jobs:
             ${{env.NORFW}}
             ${{env.NANDFW}}
 
-      - name: Send binary
-        if: github.event_name != 'pull_request' && env.NORFW
-        
+     
